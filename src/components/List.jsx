@@ -1,5 +1,3 @@
-import React from "react";
-
 function List(props) {
   return (
     <div>
@@ -9,8 +7,7 @@ function List(props) {
           onClick={() => {
             props.onClicked(props.id);
           }}
-          style={{ marginLeft: "100px" }}
-        >
+          style={{ marginLeft: "100px" }}>
           <button>Done</button>
         </span>
       </li>
